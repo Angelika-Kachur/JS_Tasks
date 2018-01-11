@@ -1,0 +1,79 @@
+/* TASK */
+.task {
+	padding: 20px 0;
+}
+h2 {
+	margin: 0 0 20px;
+	padding: 10px;
+	font-style: italic;
+	background: #fff8dc;
+	text-align: center;
+}
+
+/* BASE */
+body {
+	font-family: 'Times New Roman';
+	font-size: 12px;
+}
+h3 {
+	margin: 10px 0;
+}
+p {
+	margin: 10px 0;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: green;
+}
+
+.main-text p {
+	margin: 0 0 25px;
+}
+
+/* Table Phones */
+#table_phones {
+	width: 100%;
+	font-size: 14px;
+}
+
+#table_phones th, 
+#table_phones td {
+	padding: 10px;
+}
+
+#table_phones th:first-child, 
+#table_phones td:first-child {
+	width: 50%;
+}
+
+#table_phones th {
+	background: #1b4845;
+	color: #fff;
+	font-size: 20px;
+	padding: 0;
+}
+
+#table_phones td {
+	background: #fff8dc;
+}
+
+#table_phones a {
+	display: block;
+	padding: 10px;
+	color: #fff;
+	transition: background ease .5s;
+}
+
+#table_phones a:hover {
+	background: #01201e;
+}
+
+label {
+	cursor: pointer;
+	display: inline-block;
+	margin: 0 5px 5px 0;
+	padding: 3px;
+	border: solid 2px green;
+}
